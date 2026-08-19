@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Sail&display=swap");
+
+:root {
+  --white: #fff;
+  --whiter: #fbfbfb;
+  --black: #000;
+  --background-color: #2f3287;
+  --f-c-b: #f9f9f9;
+  --f-c-base: #373737;
+  --f-c-base-lighter: #e7e7e7fa;
+  --f-c-light: #b0aebe;
+  --f-c-dark: #000000e3;
+  --f-c-darker: #000000ef;
+  --font-color-light-blue: #0087ff;
+  --font-color-link: #0008ff;
+  --footer: #212121b8;
+  --footer-base: #000000c8;
+  --footer-base-1: #000000d4;
+  --footer-base-2: #f8f8f817;
+  --contrast: rgba(246, 248, 249, 0.601);
+  --success: #64ecf5;
+  --danger: #ff888d;
+  --grad-1: #a1ecff;
+  --grad-2: #7bdcff;
+  --c-1: #00000010;
+  --c-2: #0000001b;
+  --c-3: #00000026;
+  --c-4: #0000002f;
+  --c-5: #0000003e;
+  --c-6: #0000003c;
+  --c-7: #0000005a;
+  --c-8: #0000006a;
+  --c-9: #00000088;
+  --c-10: #000000af;
+
+  --c-20: #2e2e2efa;
+  --c-21: #6e6e6ec4;
+
+  --brand-primary: #0e0b2c;
+  --brand-secondary: #0042ab;
+  --brand--accent: #c00000;
+
+  --brand-grayscale-light: #eeeeee;
+  --brand-grayscale-secondary: #737474e8;
+  --brand-grayscale-dark: #a2a2a290;
+
+  --n-s-130: -8.125rem;
+
+  --s-0-1: 0.006rem;
+  --s-0-2: 0.0125rem;
+  --s-0-6: 0.0375rem;
+  --s-1: 0.0625rem;
+  --s-1-5: 0.094rem;
+  --s-2: 0.125rem;
+  --s-3: 0.188rem;
+  --s-4: 0.25rem;
+  --s-5: 0.3125rem;
+  --s-6: 0.375rem;
+  --s-7: 0.4375rem;
+  --s-8: 0.5rem;
+  --s-9: 0.5625rem;
+  --s-10: 0.625rem;
+  --s-12: 0.75rem;
+  --s-13: 0.8125rem;
+  --s-14: 0.825rem;
+  --s-15: 0.9375rem;
+  --s-16: 1rem;
+  --s-17: 1.0625rem;
+  --s-18: 1.125rem;
+  --s-20: 1.25rem;
+  --s-21: 1.3125rem;
+  --s-22: 1.375rem;
+  --s-23: 1.4375rem;
+  --s-24: 1.5rem;
+  --s-25: 1.5625rem;
+  --s-26: 1.625rem;
+  --s-27: 1.688rem;
+  --s-28: 1.75rem;
+  --s-29: 1.8125rem;
+  --s-30: 1.875rem;
+  --s-32: 2rem;
+  --s-34: 2.125rem;
+  --s-35: 2.1875rem;
+  --s-36: 2.25rem;
+  --s-38: 2.375rem;
+  --s-40: 2.5rem;
+  --s-42: 2.625rem;
+  --s-48: 3rem;
+  --s-50: 3.125rem;
+  --s-55: 3.4375rem;
+  --s-58: 3.625rem;
+  --s-60: 3.75rem;
+  --s-65: 4.0625rem;
+  --s-70: 4.375rem;
+  --s-75: 4.6875rem;
+  --s-80: 5rem;
+  --s-85: 5.3125rem;
+  --s-88: 5.5rem;
+  --s-90: 5.625rem;
+  --s-95: 5.9375rem;
+  --s-100: 6.25rem;
+  --s-110: 6.875;
+  --s-120: 7.5rem;
+  --s-125: 7.8125rem;
+  --s-130: 8.125rem;
+  --s-140: 8.75rem;
+  --s-150: 9.375rem;
+  --s-155: 9.6875rem;
+  --s-175: 10.9375rem;
+  --s-180: 11.25rem;
+  --s-194: 12.125rem;
+  --s-200: 12.5rem;
+  --s-210: 13.125rem;
+  --s-225: 14.063rem;
+  --s-250: 15.625rem;
+  --s-265: 16.563rem;
+  --s-266: 16.625rem;
+  --s-275: 17.1875rem;
+  --s-295: 18.438rem;
+  --s-300: 18.75rem;
+  --s-342: 21.375rem;
+  --s-350: 21.875rem;
+  --s-365: 22.813rem;
+  --s-400: 25rem;
+  --s-420: 26.25rem;
+  --s-500: 31.25rem;
+  --s-550: 34.375rem;
+  --s-600: 37.5rem;
+  --s-620: 38.75rem;
+  --s-650: 40.625rem;
+  --s-675: 42.1875rem;
+  --s-700: 43.75rem;
+  --s-800: 50rem;
+  --s-855: 53.438rem;
+  --s-1000: 62.5rem;
+  --s-1200: 75rem;
+
+  --p: 0%;
+
+  --f-f-primary: "Syne", sans-serif;
+  --f-f-secondary: sans-serif;
+  --f-f-accent: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Cormorant Infant", "Helvetica Neue", sans-serif;
+  font-family: "Cormorant Infant", sans-serif;
+  font-weight: 400;
+  font-size: normal;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  width: 100%;
+  max-width: 1450px;
+  margin: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0;
+  color: var(--f-c-base);
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.container {
+  width: 100%;
+  padding-left: var(--s-15);
+  padding-right: var(--s-15);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-block {
+  display: block;
+}
+
+.link-block {
+  display: block;
+}
+
+.border-radius {
+  border-radius: 50%;
+}
