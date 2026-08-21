@@ -177,12 +177,12 @@ p {
   color: var(--f-c-base);
 }
 
-img {
+/* img {
   width: 100%;
   max-width: 100%;
   vertical-align: middle;
   border-style: none;
-}
+} */
 
 .container {
   width: 100%;
