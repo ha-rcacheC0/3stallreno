@@ -480,11 +480,19 @@ a:hover {
 }
 
 #model-about {
-  left: 82px;
+  left: 92px;
 }
 
 #model-shop {
-  left: 92px;
+  left: 103px;
+}
+
+#model-gall {
+  left: 90px;
+}
+
+#model-con {
+  left: 90px;
 }
 
 .icon {
