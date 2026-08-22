@@ -250,7 +250,7 @@ a:hover {
 
 .about-sec h1 {
   font-size: 64px;
-  font-weight: 100;
+  font-weight: 300;
   margin-bottom: 15px;
   padding-bottom: 25px;
   opacity: 0.5;
@@ -263,6 +263,9 @@ a:hover {
 
 .about-sec p {
   opacity: 0.8;
+  font-size: var(--s-16);
+  padding-top: 15px;
+  font-family: "Cormorant Infant";
 }
 
 .main {
