@@ -90,6 +90,7 @@
   --s-55: 3.4375rem;
   --s-58: 3.625rem;
   --s-60: 3.75rem;
+  --s-64: 4rem;
   --s-65: 4.0625rem;
   --s-70: 4.375rem;
   --s-75: 4.6875rem;
@@ -113,6 +114,7 @@
   --s-210: 13.125rem;
   --s-225: 14.063rem;
   --s-250: 15.625rem;
+  --s-256: 16rem;
   --s-265: 16.563rem;
   --s-266: 16.625rem;
   --s-275: 17.1875rem;
@@ -149,7 +151,7 @@ html {
 * {
   font-family: "Cormorant Infant", "Helvetica Neue", sans-serif;
   font-family: "Cormorant Infant", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: normal;
   box-sizing: border-box;
   margin: 0px;
