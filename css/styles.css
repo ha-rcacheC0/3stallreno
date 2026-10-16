@@ -521,6 +521,7 @@
 
 .story p {
   margin: var(--s-20) var(--s-10);
+  max-width: 1050px;
 }
 
 /* SHOP PAGE START HERE */
