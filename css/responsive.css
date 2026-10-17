@@ -409,6 +409,10 @@
     right: var(--s-100);
   }
 
+  .nav-logo img {
+    margin-left: 10px;
+  }
+
   .nav-social-list {
     position: relative;
     left: -100px;
@@ -424,42 +428,6 @@
 
   .image-display-none-mobile {
     display: none;
-  }
-
-  .flip-container {
-    margin: var(--s-100) 0 var(--s-200);
-  }
-
-  .flip-top-container {
-    margin-bottom: var(--s-140);
-  }
-
-  .flip-top-container,
-  .flip-bottom-container {
-    flex-direction: column;
-    height: var(--s-1000);
-    width: 100%;
-    align-items: center;
-  }
-
-  .flip-link {
-    width: 100%;
-  }
-
-  .flip-top-left-container,
-  .flip-top-right-container,
-  .flip-bottom-left-container,
-  .flip-bottom-right-container {
-    width: 94%;
-    height: 520px;
-  }
-
-  .rank-text h4 {
-    padding: 0.5em;
-  }
-
-  .news-headlines-column {
-    height: var(--s-450);
   }
 
   .team-heading-right {
